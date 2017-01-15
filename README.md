@@ -2,7 +2,7 @@
 
 For a live demo, see https://slack-clone1.herokuapp.com/
 or
-https://slack-clone-2516f.firebaseapp.com.(not for this repo but for demo)
+https://slack-clone-2516f.firebaseapp.com (not for this repo but for demo)
 
 This project was originally based on the Thinkster.io tutorial 'Build a Real-Time Slack Clone'
 
