@@ -39,3 +39,17 @@ https://github.com/gothinkster/angularfire-slack
 
 ## Firebase hosting
 https://slack-clone-76f2a.firebaseapp.com
+### Changes from the thinskter tutorial: integrate with Firebase 3 ( thinster tutorial used Firebase2)
+1.web app config:
+`var config = {
+  apiKey: "xxxxxx",
+  authDomain: "projectid.firebaseapp.com",
+  databaseURL: "https://projectid.firebaseio.com",
+  storageBucket: "projectid.appspot.com",
+};
+firebase.initializeApp(config);
+var FirebaseUrl = firebase.database().ref();`
+2. Firebase variables changed format
+`var channelMessagesRef = FirebaseUrl.child('channelMessages');`
+3. Key() has been replaced with "key"
+4. Refer to this doc: https://github.com/firebase/angularfire/blob/master/docs/migration/1XX-to-2XX.md
