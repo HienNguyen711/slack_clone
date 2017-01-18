@@ -1,6 +1,8 @@
 {
   "name": "Slack-clone",
+  "description": "Slack clone app followed by Thinkster tutorial",
   "version": "0.0.0",
+  "author": "Hien Nguyen",
   "dependencies": {},
   "repository": {},
   "devDependencies": {
@@ -38,5 +40,7 @@
   },
   "scripts": {
     "start": "grunt serve"
-  }
+  },
+
+  "license": "MIT"
 }

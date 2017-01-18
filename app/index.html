@@ -5,6 +5,7 @@
     <title>Slack</title>
     <meta name="description" content="Slack-clone app">
     <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Hien Nguyen">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -16,10 +17,7 @@
     <!-- endbuild -->
   </head>
   <body ng-app="angularfireSlackApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
+    <!--UI-VIEW GOES HERE-->
     <ui-view></ui-view>
 
 
@@ -37,12 +35,13 @@
 
     <script>
       // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyAREqeNTNC4dT9mXgZTLjyMjDfrl9WebJc",
-        authDomain: "slack-clone-2516f.firebaseapp.com",
-        databaseURL: "https://slack-clone-2516f.firebaseio.com",
-        storageBucket: "slack-clone-2516f.appspot.com",
-      };
+        var config = {
+    apiKey: "AIzaSyBv1bzpjEPi_5fFUMONKeAJRGqcfEZOiNI",
+    authDomain: "slack-clone-76f2a.firebaseapp.com",
+    databaseURL: "https://slack-clone-76f2a.firebaseio.com",
+    storageBucket: "slack-clone-76f2a.appspot.com",
+    messagingSenderId: "180527799732"
+  };
       firebase.initializeApp(config);
     </script>
 
@@ -63,3 +62,5 @@
 </body>
 
 </html>
+
+
