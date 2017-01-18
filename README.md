@@ -37,3 +37,5 @@ Thinkster tutorial 'Building a real-time slack clone using AngularFire': https:/
 Angular seed repo for start skeleton:
 https://github.com/gothinkster/angularfire-slack
 
+## Firebase hosting
+https://slack-clone-76f2a.firebaseapp.com
