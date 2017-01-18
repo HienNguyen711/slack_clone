@@ -1,8 +1,8 @@
 {
   "hosting": {
-    "public": "dist",
-    "ignore": [
-      "firebase.json"
-    ]
+    "public": "app"
+  },
+  "database": {
+    "rules": "database.rules.json"
   }
 }

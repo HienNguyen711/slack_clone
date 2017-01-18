@@ -1,5 +1,6 @@
 {
   "projects": {
-    "slack-clone": "slack-clone-2516f"
+    "slack-clone": "slack-clone-2516f",
+    "default": "slack-clone-76f2a"
   }
 }

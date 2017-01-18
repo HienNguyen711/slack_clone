@@ -2,11 +2,10 @@
 
 For a live demo, see https://slack-clone1.herokuapp.com/
 or
-<<<<<<< HEAD
 https://slack-clone-2516f.firebaseapp.com.(not for this repo but for demo)(this fake demo use differrent Firebase account)
-=======
+
 https://slack-clone-2516f.firebaseapp.com (not for this repo but for demo)
->>>>>>> origin/master
+
 
 This project was originally based on the Thinkster.io tutorial 'Build a Real-Time Slack Clone'
 
@@ -23,6 +22,9 @@ Npm, Bower
 Run `grunt` for building and `grunt serve` for preview || Run `npm start`
 Then open your browser, go to: localhost:4000
 
+
+For deploy:
+Log in as : email: admin@admin.com, Password : password
 ## Testing
 
 Testing phase to be continued...(but currenty there is no testing for this app)
