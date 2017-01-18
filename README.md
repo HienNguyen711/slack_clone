@@ -48,8 +48,8 @@ https://slack-clone-76f2a.firebaseapp.com
   storageBucket: "projectid.appspot.com",
 };
 firebase.initializeApp(config);
-var FirebaseUrl = firebase.database().ref();`
+var FirebaseUrl = firebase.database().ref();`<br>
 2. Firebase variables changed format
-`var channelMessagesRef = FirebaseUrl.child('channelMessages');`
-3. Key() has been replaced with "key"
+`var channelMessagesRef = FirebaseUrl.child('channelMessages');`<br>
+3. Key() has been replaced with "key"<br>
 4. Refer to this doc: https://github.com/firebase/angularfire/blob/master/docs/migration/1XX-to-2XX.md
